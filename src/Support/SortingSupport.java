@@ -11,7 +11,7 @@ public class SortingSupport {
         }
         System.out.println();
 
-        System.out.println(A[0]);
+        System.out.print(A[0]);
         for (int i = 1; i < A.length; i++) {
             System.out.print("\t" + A[i]);
         }

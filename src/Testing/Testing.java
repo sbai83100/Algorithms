@@ -1,4 +1,6 @@
 package Testing;
+
+import Interfaces.*;
 import QuadraticSorting.*;
 import Support.*;
 
@@ -16,10 +18,19 @@ public class Testing {
         System.out.println();
         */
 
+        /*
         System.out.println("Selection Sort");
         SortingSupport.printArray(A);
         System.out.println();
         SelectionSort.selectionSort(A);
+        SortingSupport.printArray(A);
+        System.out.println();
+        */
+
+        SortingAlgorithm sa = new BubbleSort();
+        SortingSupport.printArray(A);
+        System.out.println();
+        sa.sort(A);
         SortingSupport.printArray(A);
         System.out.println();
     }
